@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Slider | AsmrProg</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">AsmrProg</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOpen">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarOpen">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Youtube</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="carouselIndicator" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselIndicator" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicator" data-slide-to="1"></li>
+            <li data-target="#carouselIndicator" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="aseets/1.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5>Slide One</h5>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nulla, tempore.
+                        Deserunt excepturi quas
+                        vero.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="aseets/2.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5>Slide Two</h5>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nulla, tempore.
+                        Deserunt excepturi quas
+                        vero.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="aseets/3.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5>Slide Three</h5>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nulla, tempore.
+                        Deserunt excepturi quas
+                        vero.</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselIndicator" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicator" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

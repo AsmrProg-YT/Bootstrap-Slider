@@ -1,0 +1,54 @@
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-item img{
+    background-size: cover;
+}
+
+.carousel-caption{
+    bottom: 40%;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 1.7px;
+}
+
+.carousel-caption p{
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-toggler{
+    background: #fff;
+    outline: none !important;
+    font-size: 18px;
+    line-height: 0.3;
+    padding: 1px 5px;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-link{
+    padding: 5px;
+}
